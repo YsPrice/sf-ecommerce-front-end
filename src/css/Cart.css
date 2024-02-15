@@ -1,0 +1,27 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .cart-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .cart-item div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item button {
+    margin: 0 5px;
+  }
+  
+  .cart {
+    max-width: 600px;
+    margin: auto;
+  }
+  
