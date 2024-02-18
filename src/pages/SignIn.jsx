@@ -88,7 +88,7 @@ console.log(errorMessage)
       </p>
       <button onClick={onNavigateToSignUp}>
 
-        <Link to="/sign-up">Sign Up</Link></button>
+        <Link style={{textDecoration:'none', color:'white'}}to="/sign-up">Sign Up</Link></button>
         </>):(<>
                     <Link to="/">Return home</Link>
                       </>

@@ -71,7 +71,7 @@ console.log(errorMessage)
         Already signed up?
       </p>
       <button>
-        <Link to="/sign-in">Sign in</Link></button>
+        <Link style={{textDecoration:'none', color:'white'}} to="/sign-in">Sign in</Link></button>
     </div>
 
   );
