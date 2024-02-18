@@ -23,7 +23,7 @@ const currentUser = useSelector(state=> state.user.currentUser)
       }
       const orderData = await createOrderFromCartApi(token)
       dispatch(clearCart())
-      console.log('Order created:', orderData);
+    //   console.log('Order created:', orderData);
       setOrder(orderData)
       setCurrentOrder(true)
  }
@@ -38,6 +38,7 @@ const currentUser = useSelector(state=> state.user.currentUser)
             <h1>
                 Order Details
             </h1>
+
             <h3>Order status: {order.order.status}</h3>
             <p>
             This project was built with Ruby on Rails and React.js
