@@ -38,8 +38,6 @@ const currentUser = useSelector(state=> state.user.currentUser)
             <h1>
                 Order Details
             </h1>
-            <h2>total items: {order.order.total_items}</h2>
-            <h2>total price: {order.order.total_price}0</h2>
             <h3>Order status: {order.order.status}</h3>
             <p>
             This project was built with Ruby on Rails and React.js
