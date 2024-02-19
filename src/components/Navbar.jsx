@@ -33,6 +33,7 @@ const toggleNavbar = () => {
   const handleSignOut = () => {
     localStorage.removeItem('token');
     dispatch(resetUser());
+    dispatch(clearCart())
     navigate('/');
   };
 
